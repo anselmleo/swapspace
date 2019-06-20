@@ -136,13 +136,6 @@
 					}
 					break;
 
-				// case 'email_exists':
-				// 	if(doesEmailExist($dbconn, $field)) {
-				// 		$_errMsg = $err[$key]['email_exists'];
-				// 		$_isError = true;
-				// 	}
-				// 	break;
-
 				case 'exists':
 					$table = explode('#', $rule[1]);
 					$tableName = $table[0];
