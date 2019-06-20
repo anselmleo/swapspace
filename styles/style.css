@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(232,232,232);
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	width: 1200px;
+	margin: 50px auto;
+	/*background-color: white;*/
+	height: 500px;
+	box-sizing: border-box;
+
+}
+
+.error {
+	color: rgba(255,255,255,1);
+	padding-bottom: 3px;
+	background-color: red;
+	/*margin-left: 100px;*/
+	padding-left: 100px;
+	padding-right: 10px;
+	
+}
+
+
+.left-col {
+	width: 48%;
+	height: 100%;
+	background-image: url(../images/mobilebanking.png);
+	float: left;
+	
+}
+
+.left-col2 {
+	width: 48%;
+	height: 550px;
+	background-image: url(../images/mobilebanking2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+
+}
+
+.right-col {
+	width: 48%;
+	height: 100%;
+	background-color: white;
+	border-radius: 20px;
+	float: right;
+	box-shadow: -.5px .5px 5px rgba(165,165,165,.7);
+
+}
+
+.right-col2 {
+	width: 48%;
+	height: 550px;
+	background-color: white;
+	border-radius: 20px;
+	float: right;
+	box-shadow: -.5px .5px 5px rgba(165,165,165,.7);
+
+}
+
+.form-body h5 {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+/*#logo {
+ 	background-image: url(../images/logo.png);
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+
+}*/
+
+.form-logo {
+	width: 100%;
+	height: 50px;
+	background-image: url(../images/swapspace-logo2.png);
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: 150px;
+ 	padding-top: 50px;
+}
+
+.form-header {
+	background-color: rgb(3,47,71);
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#form-header {
+	color: white;
+	padding-top: 7px;
+	font-size: 50px;
+}
+
+form {
+	padding: 20px 0px 0 100px;
+
+}
+
+form p {
+	margin-bottom: 15px;
+}
+
+form label {
+	display: block;
+	/*font-size: 20px;*/
+}
+
+form input {
+	font-size: 30px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,.2);
+}
+
+.submit-button{
+	width: 370px;
+}
+
